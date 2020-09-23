@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class AboutUs extends Component {
   render() {
     return (
-      <div className="my-profile">
+      <div className="about-us">
         <p>
           Company: ThoughtWorks local
         </p>
