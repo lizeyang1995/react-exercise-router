@@ -12,3 +12,12 @@
   text-decoration: none;
   font-weight: 700;
 }
+
+.bicycle {
+  color: dimgrey;
+  padding: 20px;
+}
+
+.bicycle p {
+  margin-top: 0;
+}

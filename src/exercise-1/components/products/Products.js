@@ -10,13 +10,13 @@ class Products extends Component {
           All Products:
         </p>
         <p>
-          <Link to='/products/:1'>Bicycle</Link>
+          <Link to='/products/1'>Bicycle</Link>
         </p>
         <p>
-          <Link to='/products/:2'>TV</Link>
+          <Link to='/products/2'>TV</Link>
         </p>
         <p>
-          <Link to='/products/:3'>Pencil</Link>
+          <Link to='/products/3'>Pencil</Link>
         </p>
       </div>
     );
