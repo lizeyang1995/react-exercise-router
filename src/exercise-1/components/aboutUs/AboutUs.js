@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './AboutUs.css';
 
 class AboutUs extends Component {
@@ -12,7 +13,7 @@ class AboutUs extends Component {
           Location: Xi'an
         </p>
         <p className='more'>
-          For more information,please view our website
+          For more information,please view our <Link to='/'>website</Link>
         </p>
       </div>
     );

@@ -7,13 +7,13 @@ class Header extends Component {
     return (
       <div className="header">
         <p>
-          <NavLink activeClassName='active' to='/'>Home</NavLink>
+          <NavLink activeClassName='active' className='link' to='/'>Home</NavLink>
         </p>
         <p>
-          <NavLink activeClassName='active' to='/my-profile'>My Profile</NavLink>
+          <NavLink activeClassName='active' className='link' to='/my-profile'>My Profile</NavLink>
         </p>
         <p>
-          <NavLink activeClassName='active' to='/about-us'>About Us</NavLink>
+          <NavLink activeClassName='active' className='link' to='/about-us'>About Us</NavLink>
         </p>
       </div>
     );

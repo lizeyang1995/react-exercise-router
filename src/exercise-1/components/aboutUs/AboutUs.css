@@ -14,3 +14,8 @@
 .more {
   width: 200px;
 }
+
+.about-us a{
+  color: red;
+  text-decoration: revert;
+}
