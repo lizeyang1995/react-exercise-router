@@ -24,6 +24,7 @@ class App extends Component {
             <Route exact path='/products/1' component={Bicycle} />
             <Route exact path='/products/2' component={TV} />
             <Route exact path='/products/3' component={Pencil} />
+            <Route component={Home} />
           </Switch>
         </div>
       </Router>
