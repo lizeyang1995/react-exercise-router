@@ -7,6 +7,7 @@ import MyProfile from './myProfile/MyProfile';
 import AboutUs from './aboutUs/AboutUs';
 import Products from './products/Products';
 import Bicycle from './products/Bicycle';
+import TV from './products/TV';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path='/about-us' component={AboutUs} />
             <Route exact path='/products' component={Products} />
             <Route exact path='/products/1' component={Bicycle} />
+            <Route exact path='/products/2' component={TV} />
           </Switch>
         </div>
       </Router>

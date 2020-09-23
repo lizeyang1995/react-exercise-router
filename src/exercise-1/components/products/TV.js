@@ -1,32 +1,32 @@
 import React, {Component} from 'react';
 import './Products.css';
 
-class Bicycle extends Component {
+class TV extends Component {
   render() {
     return (
-      <div className="bicycle">
+      <div className="tv">
         <h3>Product Details</h3>
         <p>
-          Name: Bicycle
+          Name: TV
         </p>
         <p>
-          Id: 1
+          Id: 2
         </p>
         <p>
-          Price: 30
+          Price: 40
         </p>
         <p>
-          Quantity: 15
+          Quantity: 16
         </p>
         <p>
-          Desc: Bicycle is good
+          Desc: TV is good
         </p>
         <p>
-          URL: /products/1
+          URL: /products/2
         </p>
       </div>
     );
   }
 }
 
-export default Bicycle;
+export default TV;
