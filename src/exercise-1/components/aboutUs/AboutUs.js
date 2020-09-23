@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
+import './AboutUs.css';
 
 class AboutUs extends Component {
   render() {
     return (
       <div className="about-us">
-        <p>
+        <p className='company'>
           Company: ThoughtWorks local
         </p>
-        <p>
+        <p className='location'>
           Location: Xi'an
         </p>
-        <p>
-          For more information,please
-        </p>
-        <p>
-          view our website
+        <p className='more'>
+          For more information,please view our website
         </p>
       </div>
     );

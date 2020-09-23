@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
   render() {
     return (
       <div className="header">
         <p>
-          <Link to='/'>Home</Link>
+          <NavLink activeClassName='active' to='/'>Home</NavLink>
         </p>
         <p>
-          <Link to='/my-profile'>My Profile</Link>
+          <NavLink activeClassName='active' to='/my-profile'>My Profile</NavLink>
         </p>
         <p>
-          <Link to='/about-us'>About Us</Link>
+          <NavLink activeClassName='active' to='/about-us'>About Us</NavLink>
         </p>
       </div>
     );

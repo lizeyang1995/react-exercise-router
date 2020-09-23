@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgray;
+}
+
+.header p {
+  padding: 10px;
+}
+
+a {
+  color: dimgray;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: revert;
+}
