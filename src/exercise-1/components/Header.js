@@ -10,6 +10,9 @@ class Header extends Component {
           <NavLink activeClassName='active' className='link' to='/'>Home</NavLink>
         </p>
         <p>
+          <NavLink activeClassName='active' className='link' to='/products'>Products</NavLink>
+        </p>
+        <p>
           <NavLink activeClassName='active' className='link' to='/my-profile'>My Profile</NavLink>
         </p>
         <p>

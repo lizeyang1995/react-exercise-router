@@ -1,0 +1,14 @@
+.products {
+  color: dimgrey;
+  padding: 20px;
+}
+
+.products p {
+  margin-top: 0;
+}
+
+.products a{
+  color: red;
+  text-decoration: none;
+  font-weight: 700;
+}

@@ -5,6 +5,7 @@ import Header from './Header';
 import Home from './home/Home';
 import MyProfile from './myProfile/MyProfile';
 import AboutUs from './aboutUs/AboutUs';
+import Products from './products/Products';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/my-profile' component={MyProfile} />
             <Route path='/about-us' component={AboutUs} />
+            <Route path='/products' component={Products} />
           </Switch>
         </div>
       </Router>
