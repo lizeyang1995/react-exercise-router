@@ -8,6 +8,7 @@ import AboutUs from './aboutUs/AboutUs';
 import Products from './products/Products';
 import Bicycle from './products/Bicycle';
 import TV from './products/TV';
+import Pencil from './products/Pencil';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path='/products' component={Products} />
             <Route exact path='/products/1' component={Bicycle} />
             <Route exact path='/products/2' component={TV} />
+            <Route exact path='/products/3' component={Pencil} />
           </Switch>
         </div>
       </Router>

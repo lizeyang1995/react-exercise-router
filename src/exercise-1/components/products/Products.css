@@ -1,4 +1,4 @@
-.products,.bicycle,.tv {
+.products,.bicycle,.tv,.pencil {
   color: dimgrey;
   padding: 20px;
 }
@@ -11,8 +11,4 @@
   color: red;
   text-decoration: none;
   font-weight: 700;
-}
-
-.bicycle p {
-  margin-top: 0;
 }
