@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className="header">
         <p>
-          <Link to='/home'>Home</Link>
+          <Link to='/'>Home</Link>
         </p>
         <p>
           <Link to='/my-profile'>My Profile</Link>
@@ -14,9 +14,6 @@ class Header extends Component {
         <p>
           <Link to='/about-us'>About Us</Link>
         </p>
-        
-        
-        
       </div>
     );
   }
