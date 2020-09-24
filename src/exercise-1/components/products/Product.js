@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Data from '../../../exercise-2/mockups/data.json';
+import './Products.css';
 
 class Product extends Component {
   state = {
